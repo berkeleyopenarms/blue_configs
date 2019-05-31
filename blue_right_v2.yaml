@@ -4,6 +4,6 @@ right_arm/blue_hardware:
     # serial_port: /dev/serial/by-id/usb-FTDI_FT232R_USB_UART_AK05W6GI-if00-port0
     motor_ids: [1, 2, 3, 4, 5, 6, 7, 8]
     # simple_startup_angles: [-1.570796, -2.310, 1.570796, -0.750492, -1.570796, 0.0, 0.0, 0.0]
-    simple_startup_angles: [0.0, -2.310, 1.570796, -0.750492, -1.570796, 0.0, 0.0, 0.0]
-    disable_snap: true
-    actuator_zeros:   [0., 0., 0., 0., 0., 0., 0.]
+    simple_startup_angles: [0.0, -2.310, 1.570796, -0.750492, -1.570796, 0.0, 0.0, 1.05]
+    disable_snap  : false
+    actuator_zeros: [1.2712864875793457, -1.6209599521396925, 12.798627041, 5.260861203408403, 17.389831158852743, 12.508920476174517, 14.653976056313681]

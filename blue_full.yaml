@@ -1,14 +1,14 @@
 right_arm/blue_hardware:
     serial_port: /dev/serial/by-id/usb-FTDI_FT232R_USB_UART_A506MOXA-if00-port0
     motor_ids: [40, 65, 76, 77, 70, 21, 20, 52]
-    simple_startup_angles: [0.785398, -2.19, 1.570796, 0.0, -1.570796, -0.23, 0.0, 0.0]
+    simple_startup_angles: [0.785398, -2.19, 1.570796, 0.0, -1.570796, -0.23, 0.0, 1.05]
     disable_snap: true
     accel_rotations: [0, 0, 0, 0, 0]
     actuator_zeros:  [-2.749748468399048, -1.2291183985579615, 1.7955094427293723, -2.174094908467932, 1.0969266133919042, 1.621828041076661, 0.8634685103045854]
 left_arm/blue_hardware:
     serial_port: /dev/serial/by-id/usb-FTDI_FT232R_USB_UART_A506NOKG-if00-port0
     motor_ids: [30, 69, 62, 81, 68, 50, 51, 55]
-    simple_startup_angles: [-0.785398, -2.19, -1.570796, 0.0, 1.570796, -0.23, 0.0, 0.0]
+    simple_startup_angles: [-0.785398, -2.19, -1.570796, 0.0, 1.570796, -0.23, 0.0, 1.05]
     disable_snap: true
     accel_rotations: [0, 0, 0, 0, 0]
     actuator_zeros:   [0.39154876072147715, -1.3952121029668199, -2.581706774496869, -2.0241007999720075, -0.18053573649546095, 0.29161926269531335, 2.86723045349121]
